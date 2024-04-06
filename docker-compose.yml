@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: react-app-container
+    build: .
+    ports:
+      - '80:80'
+    volumes:
+      - .:/app
+    # Specify the working directory inside the container
+    working_dir: /app
+    # Command to run the development server
+    command: npm start

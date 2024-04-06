@@ -1,0 +1,13 @@
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-item {
+  flex-basis: 24%;
+  display: flex;
+  row-gap: 10px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}

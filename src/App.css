@@ -1,0 +1,25 @@
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.bg-green {
+  background: #1ab76c !important;
+}
+.text-green-cs {
+  color: #1ab76c !important;
+}
+.z-index-1 {
+  z-index: 1;
+}
+.pt-100-px {
+  padding-top: 100px !important;
+}
+.cursor {
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+}
